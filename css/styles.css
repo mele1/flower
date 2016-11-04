@@ -1,0 +1,121 @@
+/* CSS Document */
+/**/
+
+html	{}
+body	{background-image:url(../images/bg1.jpg);}
+					a:link	{color:#000; text-decoration:none; font-family:Calibri; font-size:18px; } /*unvisited link*/
+					a:visited	{color:#000; font-family:Calibri; font-size:18px;} /*visited link*/
+					a:active	{color:#000; font-family:Calibri; font-size:18px;} /*selected link*/
+					a:hover	{color:#FC3;  font-size:18px;} /*mouse over link*/
+					a:focus	{}  /*keyboard focus*/
+
+
+/*heading*/
+h1, h2, h3 {font-weight: bold;}
+
+h1 {font-size:24px; padding:15px; color:#AB9F0C; border-bottom:2px #ccc solid; margin-bottom:10px;}
+h2 {font-size:20px; padding:15px; color:#AB9F0C; border-bottom:2px #ccc solid; margin-bottom:10px;}
+h3 {font-size:16px; color:#AB9F0C; padding:5px;  margin-bottom:5px;}
+
+/*Paragraphs*/
+p		{color:#000; font-size:18px; line-height:150%; margin:15px 0;}
+p .left	{}
+p .right{}
+.login	{color:#FC6;}
+/*text*/
+.header-link {}
+/*links*/
+
+/*images*/
+input#image-button{
+    background: #ccc url('images/icon/login.png') no-repeat top left;
+    width:50px;
+}
+
+.image-icon		{width:70px;}
+.image-frame	{padding:5px; margin:10px;   border-top:1px #AB9F0C solid; border-bottom:1px #AB9F0C solid; border-left: 1px #C8C411 solid; border-right: 1px #C8C411 solid;}
+.image-products	{padding:5px; margin:10px 5px; width:150px; height:auto;}	
+/*containers*/
+#outter		{width:950px; margin:0 auto; background-color:#FFF;}
+
+#container	{width:900px; margin:0 auto; background-color:#FFF;}
+
+#staff		{border: 1px #AB9F0C solid;}
+
+#logo		{margin:0px 0;  float:left; }
+
+#login			{margin: 0 0 0 0; font:Arial, Helvetica, sans-serif; font-size:12px; font-style:italic; border-top:1px #AB9F0C solid; border-bottom:1px #AB9F0C solid; border-left: 1px #C8C411 solid; border-right: 1px #C8C411 solid; padding:0px 10px 0px 10px;}
+#login ul li 	{display:inline;}
+#login ul		{margin-top:30px;}
+
+#navi		{clear:both;}
+	/*Descendant selectors*/
+	#navi ul		{border-top:1px #C8C411 solid; border-bottom:1px #C8C411 solid; border-left: 1px #C8C411 solid; border-right: 1px #C8C411 solid;
+						margin:20px 0px; padding: 10px 0;}
+	#navi ul li		{display:inline;}
+	#navi ul li a	{padding: 0 50px;} /*styling done to the word in the link*/
+	#navi ul ul     {position:absolute; visibility:hidden; }
+	#navi ul ul li   {display:inline;}
+	#navi ul li:hover ul {visibility:visible;}
+
+					#navi a:link	{color:#000; text-decoration:none; font-family:Calibri; font-size:18px; } /*unvisited link*/
+					#navi a:visited	{color:#000; font-family:Calibri; font-size:18px;} /*visited link*/
+					#navi a:active	{color:#000; font-family:Calibri; font-size:18px;} /*selected link*/
+					#navi a:hover	{color:#FC3; font-family:Calibri; font-size:18px;} /*mouse over link*/
+					#navi a:focus	{}  /*keyboard focus*/
+				
+
+#banner		{width:900px; height:300px; margin-bottom:0px; margin-top:px; padding:0px; border-top:1px #AB9F0C solid; border-bottom:1px #AB9F0C solid; border-left: 1px #C8C411 solid; border-right: 1px #C8C411 solid;}
+
+#content	{width:650px; float:left; margin-bottom:30px;}
+
+#contentt	{width:900px: float:left; margin-bottom:30px;}
+
+#feed		{width:200px; float:right; border:1px #AB9F0C solid; margin-right:10px; margin-top:65px; margin-bottom:20px; padding: 0px 15px;}
+
+#products	{margin-top:30px; clear:both;}
+
+#footer		{clear:both; margini-bottom:20px; margin-top:20px; border-top:1px #AB9F0C solid; padding-bottom:20px;}
+
+#footertext	{}
+
+#social		{margin-top:1px; padding:15px; border-top:1px #AB9F0C solid; border-bottom:1px #AB9F0C solid; border-left: 1px #C8C411 solid; border-right: 1px #C8C411 solid;}
+
+#social img	{margin-left:15px;}
+
+#box1		{}
+
+#box2		{}
+
+#leftside	{}
+
+/*Forms*/
+form ol	{list-style-type:none;}
+
+
+
+label		{float:left; width:150px; margin-top:5px; text-align:right; display:block; background:none; font-label:bold:}
+
+submit		{background:none;}
+
+
+
+input:focus, textarea:focus	{background-color:#FF6;}
+
+
+
+textarea	{width:280px; height:150px; margin:0 0 16px 10px; border:1px #bbb solid; padding: 5px; background:none;}
+
+select		{margin-bottom:20px;}
+
+.month		{margin-left:155px;}
+
+.submit		{width:90px; height:25px; margin-left: 170px; font-size:12px;  margin-bottom:10px;}
+
+
+
+#formss		{background-color:none; border: 1px #AB9F0C solid; margin-right:10px; margin-top:65px; margin-bottom:20px; padding: 0px 15px;}
+
+#formss input		{margin:10px; padding:10px;}
+
+#formss 

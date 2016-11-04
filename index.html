@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<title>Mix Flowers
+        </title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" media="print">
+        
+
+       				<script type="text/javascript">
+<!--
+var image1=new Image()
+                    image1.src="images/banner22.jpg"
+                    var image2=new Image()
+                    image2.src="images/banner111.jpg"
+                    var image3=new  Image()
+                    image3.src="images/bannner200.jpg"
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+//-->
+                    </script>
+
+     
+</head>
+
+<body onLoad="MM_preloadImages('images/book 4.jpg','images/gift1.jpg')">
+	<div id="outter">
+	<div id="container">
+		
+        	<div id="logo">
+            <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+            </div>
+            <br>
+            <div id="login">
+            <h3>Customer Log in </h3>
+                    <form action="php/check.php" method= "post">
+                    
+                                <input name="username" type="text" id="username" onBlur="MM_validateForm('username','','R');return document.MM_returnValue" placeholder="Username">
+            <input name="password" type="password" id="password" onChange="MM_validateForm('password','','R');return document.MM_returnValue" placeholder="Password">
+                                <input type="submit" value="Log in"> 
+                                <a href="register.html">Register?</a>
+                                
+                                
+                                
+                    
+              </form><br>
+            </div>
+       
+        
+        <div id="navi">
+             <ul>
+                <li><a href="index.html" title="Home Page">Home</a></li>
+                <li><a href="Products.html" title="View Our Products">Products</a>       
+                </li>
+               
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="About.html" title="Know About Us">About</a></li>
+                <li><a href="Feedback.html" title="Give Us Feedback">Feedback</a></li>
+              </ul>
+        </div>
+        
+        <div id="banner">
+         <img src="images/bannner200.jpg" name="slide">
+         
+          <script type="text/javascript">
+                    <!--
+                    var step=1
+                    function slideit(){
+                        document.images.slide.src=eval("image"+step+".src")
+                        if(step<3)
+                        step++
+                        else
+                        step=1
+                        setTimeout("slideit()",4000)
+                    }
+                    slideit()
+                    //-->
+                    </script>
+        </div>
+        
+        <div id="content">
+        	<h1>Mix Flowers.com</h1>
+          <p> Mix Flowers Ltd is a company based in Malaysia but founded in Lusaka Zambia which deals in flower and  gift deliveries. We deliver birthday, anniversary, congratulatory gifts. There are many brunches set up across the globe and we also make online deliveries. 
+ Our main objective is to make these deliveries at the perfect time and ultimately share the love.<p><br>                       
+                       <a href="Products.html" title="Sample Products"><img src="images/book1.jpg"  name="Image1" class="image-frame" id="Image1" onMouseOver="MM_swapImage('Image1','','images/book 4.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>
+                         <a href="Products.html" title="Sample Products"><img src="images/gift2.jpg" alt="" name="Image2" class="image-frame" id="Image2" onMouseOver="MM_swapImage('Image2','','images/gift1.jpg',1)" onMouseOut="MM_swapImgRestore()"></a>
+                      <br>
+                    <a href="products.html" title="Bouquets"><img class="image-products" src="images/b1.jpg"></a> 
+                	<a href="products.html" title="Valentines Gifts"><img class="image-products" src="images/v2.jpg"></a> 
+                	<a href="products.html" title="Anniversary"><img class="image-products" src="images/a3.jpg"></a> <br>
+                
+                     <a href="products.html"><p>Check out our flower bouquets and gift packages.</p></a>
+                    
+</div>
+            
+            <div id="feed">
+            <h2>Contact Us</h2> 
+            <p>Call +60176840994.<br>Email: muzomix@yahoo.com<br>
+            for enquiries.</p>
+            <h3> Directions </h3>
+            <a href="https://www.google.com/maps/place/Malaysia/@4.140634,109.6181485,6z/data=!3m1!4b1!4m2!3m1!1s0x3034d3975f6730af:0x745969328211cd8" title="Maps"><img src="images/Capture.PNG"></a>
+            <br>
+            
+            <a href="stafflog.html"><p><u>Staff Login</u></a><br>
+           
+            </div>
+            <a href="#top"><img align="right" src="images/icons/top.png"></a><br>
+            <div id="products">
+            <img src="images/bottom.jpg">
+            </div>
+        
+        
+        <div id="footer">
+        
+        	 <div ="footertext">
+             <center>
+            Copyright Mixflowers.com 2014. All rights reserved.</center>
+            </div>
+            
+        	<div id="social">
+               
+            <center>
+            <img src="images/icons/cards.png"> 
+            <a href=""><img src="images/fb.jpg"></a>
+            <a href=""><img src="images/twii.jpg"></a></center>
+            </div>
+            
+           
+        </div>
+	</div>
+    </div>
+</body>
+</html>

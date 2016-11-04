@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mix Flowers</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+
+			<script type="text/javascript">
+                    <!-->
+                    var image1=new Image()
+                    image1.src="images/banner22.jpg"
+                    var image2=new Image()
+                    image2.src="images/banner111.jpg"
+                    var image3=new  Image()
+                    image3.src="images/bannner200.jpg"
+                    
+                    //-->
+                    </script>
+</head>
+
+<body>
+	<div id="outter">
+	<div id="container">
+		
+        	<div id="logo">
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            </div>
+            <br>
+            <div id="login"><br>
+             <h3>Customer Log in </h3>
+                 <form action="php/check.php" method= "post">
+                    
+                                <input name="username" type="text" id="username" onBlur="MM_validateForm('username','','R');return document.MM_returnValue" placeholder="Username">
+            <input name="password" type="password" id="password" onChange="MM_validateForm('password','','R');return document.MM_returnValue" placeholder="Password">
+                                <input type="submit" value="Log in"> 
+                                <a href="register.html">Register?</a>
+                                
+                                
+                    
+              </form><br>
+            </div>
+       
+        
+        <div id="navi">
+             <ul>
+               <li><a href="index.html" title="Home Page">Home</a></li>
+                <li><a href="Products.html" title="View Our Products">Products</a>       
+                </li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="About.html" title="Know About Us">About</a></li>
+                <li><a href="Feedback.html" title="Give Us Feedback">Feedback</a></li>
+          </ul>
+        </div>
+        
+      <div id="banner">
+         <img src="images/bannner200.jpg" name="slide">
+                    <script type="text/javascript">
+                    <!--
+                    var step=1
+                    function slideit(){
+                        document.images.slide.src=eval("image"+step+".src")
+                        if(step<3)
+                        step++
+                        else
+                        step=1
+                        setTimeout("slideit()",5000)
+                    }
+                    slideit()
+                    //-->
+                    </script>
+        </div>
+<div id="contentt">
+      <h1>About Mix Flowers.com</h1>
+      <p>Mix Flowers was founded in 2010 by Musonda Mathew Mbalazi, a Zambian trader. The company started off as a small valentines gift shop. People loved the service from the company and, as such, this motivated Mr. Mbalazi to expand into many regions. Mr. Mbalazi now owns his own flower farms and also exports flowers in bulk to many nations. His most renown store is the one located in <a href="https://www.google.com/maps/place/Malaysia/@4.140634,109.6181485,6z/data=!3m1!4b1!4m2!3m1!1s0x3034d3975f6730af:0x745969328211cd8">Kuala Lumpur, Malaysia</a> at the Kuala Lumpur Convention Center.<p><br>
+      <p>
+      <p>           
+      </div>
+      
+    
+            
+            <div id="products">
+            <img src="images/bottom.jpg">
+          </div>
+        
+        
+        <div id="footer">
+        
+        	 <div ="footertext">
+             <center>
+            Copyright Mixflowers.com 2014. All rights reserved.</center>
+            </div>
+            
+        	<div id="social">
+            <center>
+             <img src="images/icons/cards.png"> 
+            <img src="images/fb.jpg">
+            <img src="images/twii.jpg"></center>
+            </div>
+            
+           
+        </div>
+	</div>
+    </div>
+</body>
+</html>

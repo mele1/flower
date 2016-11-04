@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Mix Flowers</title>
+<!-- TemplateEndEditable -->
+<link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+
+					<script type="text/javascript">
+                    <!-->
+                    var image1=new Image()
+                    image1.src="images/banner22.jpg"
+                    var image2=new Image()
+                    image2.src="images/banner111.jpg"
+                    var image3=new  Image()
+                    image3.src="images/bannner200.jpg"
+                    
+                    //-->
+                    </script>
+</head>
+
+<body>
+
+	<div id="outter">
+	<div id="container">
+		
+        	<div id="logo">
+            <a href="index.html"><img src="../images/logo.jpg"></a>
+            </div>
+            <br>
+            <div id="login"><br>
+            <br>Log In<br>
+                    <form action="../register.php" method= "post">
+                    
+                                Username: <input type="text" name="username">
+                                Password: 
+                                <input name="password" type="password" value="*">
+                                <input type="submit">
+                    
+                    </form><br>
+            </div>
+       
+        
+        <div id="navi">
+             <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Products.html">Products</a></li>
+                <li><a href="../Services.html">Services</a></li>
+                <li><a href="../About.html">About</a></li>
+                <li><a href="../Feedback.html">Feedback</a></li>
+              </ul>
+        </div>
+        
+        <div id="banner">
+           <img src="images/bannner200.jpg" name="slide">
+                    <script type="text/javascript">
+                    <!--
+                    var step=1
+                    function slideit(){
+                        document.images.slide.src=eval("image"+step+".src")
+                        if(step<3)
+                        step++
+                        else
+                        step=1
+                        setTimeout("slideit()",5000)
+                    }
+                    slideit()
+                    //-->
+                    </script>
+        </div>
+    <!-- TemplateBeginEditable name="content" -->
+        <div id="content">
+          <h1>Mix Flowers.com</h1>
+          <p> Mix Flowers Ltd is a company founded in Lusaka Zambia which deals in flower and  gift deliveries. We deliver birthday, anniversary, congratulatory gifts. There are many brunches set up across the globe and we also make online deliveries. 
+            Our main objective is to make these deliveries at the perfect time and ultimately share the love.
+          <p><br>
+            <img class="image-frame" src="../images/book1.jpg"> <img class="image-frame" src="../images/gift2.jpg">
+          <p>We accept payments made via paypal, mastercard,visa and cash
+          <p>           
+        </div>
+        <!-- TemplateEndEditable -->
+        <div id="feed"><!-- TemplateBeginEditable name="rightbar" -->
+          <h2>Contact Us</h2>
+          <p>Call +60176840994.<br>
+            Email: muzomix@yahoo.com<br>
+            for enquiries</p>
+        <!-- TemplateEndEditable --><br>
+         <h3> Directions </h3>
+            <a href="https://www.google.com/maps/place/Malaysia/@4.140634,109.6181485,6z/data=!3m1!4b1!4m2!3m1!1s0x3034d3975f6730af:0x745969328211cd8"><img src="../images/Capture.PNG"></a>
+            </div>
+            
+            <div id="products">
+            <img src="../images/bottom.jpg">
+          </div>
+        
+        
+        <div id="footer">
+        
+        	 <div ="footertext">
+             <center>
+            Copyright Mixflowers.com 2014. All rights reserved.</center>
+            </div>
+            
+        	<div id="social">
+            <center>
+             <img src="../images/icons/cards.png"> 
+            <img src="../images/fb.jpg">
+            <img src="../images/twii.jpg"></center>
+            </div>
+            
+           
+        </div>
+	</div>
+    </div>
+</body>
+</html>

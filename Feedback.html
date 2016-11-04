@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mix Flowers</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+<script type="text/javascript">
+<!--
+var image1=new Image()
+                    image1.src="images/banner22.jpg"
+                    var image2=new Image()
+                    image2.src="images/banner111.jpg"
+                    var image3=new  Image()
+                    image3.src="images/bannner200.jpg"
+					
+					
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+//-->
+</script>
+</head>
+
+<body>
+
+	<div id="outter">
+	<div id="container">
+		
+        	<div id="logo">
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            </div>
+            <br>
+            <div id="login"><br>
+             <h3>Customer Log in </h3>
+                 <form action="php/check.php" method= "post">
+                    
+                                <input name="username" type="text" id="username" onBlur="MM_validateForm('username','','R');return document.MM_returnValue" placeholder="Username">
+            <input name="password" type="password" id="password" onChange="MM_validateForm('password','','R');return document.MM_returnValue" placeholder="Password">
+                                <input type="submit" value="Log in"> 
+                                <a href="register.html">Register?</a>
+                                
+                                
+                    
+              </form><br>
+            </div>
+       
+        
+        <div id="navi">
+             <ul>
+              <li><a href="index.html" title="Home Page">Home</a></li>
+                <li><a href="Products.html" title="View Our Products">Products</a>       
+                </li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="About.html" title="Know About Us">About</a></li>
+                <li><a href="Feedback.html" title="Give Us Feedback">Feedback</a></li>
+              </ul>
+        </div>
+        
+        <div id="banner">
+           <img src="images/bannner200.jpg" name="slide">
+                    <script type="text/javascript">
+                    <!--
+                    var step=1
+                    function slideit(){
+                        document.images.slide.src=eval("image"+step+".src")
+                        if(step<3)
+                        step++
+                        else
+                        step=1
+                        setTimeout("slideit()",5000)
+                    }
+                    slideit()
+                    //-->
+                    </script>
+        </div>
+<div id="content">
+     
+      <div id="formss">
+       <h1>Feedback</h1>
+     <form action="php/feedback.php" method="post">
+     <ol class="forms1">
+     
+     	<li>
+        	<label for="name">* Name:</label>
+            <input name="name" type="text" required="required" id="name" />
+        </li> 
+      
+      	<li>
+        	<label for="email">* Email:</label>
+            <input name="email" type="text" required="required" id="email" onBlur="MM_validateForm('email','','NisEmail');return document.MM_returnValue" />
+        </li> 
+        
+        <li>
+        	<label for="message">* Message:</label>
+            <textarea name="message" required="required" id="message"></textarea>
+        </li> 
+      
+      	<li class="submit">
+      	  <input type="submit" value="Send Message">
+      	</li>
+      	<br>
+      </ol>
+      </form>
+      </div>
+      </div>
+      
+      
+        <div id="feed">
+  <h2>Contact Us</h2>
+          <p>Call +60176840994.<br>
+            Email: muzomix@yahoo.com<br>
+            for enquiries</p>
+<br>
+         <h3> Directions </h3>
+            <a href="https://www.google.com/maps/place/Malaysia/@4.140634,109.6181485,6z/data=!3m1!4b1!4m2!3m1!1s0x3034d3975f6730af:0x745969328211cd8"><img src="images/Capture.PNG"></a>
+          </div>
+            
+            <div id="products">
+            <img src="images/bottom.jpg">
+          </div>
+        
+        
+        <div id="footer">
+        
+        	 <div ="footertext">
+             <center>
+            Copyright Mixflowers.com 2014. All rights reserved.</center>
+            </div>
+            
+        	<div id="social">
+            <center>
+             <img src="images/icons/cards.png"> 
+            <img src="images/fb.jpg">
+            <img src="images/twii.jpg"></center>
+            </div>
+            
+           
+        </div>
+	</div>
+    </div>
+</body>
+</html>

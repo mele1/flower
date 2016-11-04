@@ -1,0 +1,39 @@
+CREATE TABLE 'staff'(
+    staff_ID varchar(3) primary key,
+    username varchar(40) not null,
+    password varchar(20) not null );
+
+insert into 'staff'(staff_ID,username,password) values (1,'staff', 'staff');
+
+CREATE TABLE products (
+    productID varchar(5) primary key,
+    productName varchar(20) not null,
+    productDescription varchar(300) not null,
+    productPrice float not null,
+    productShipping int(20) not null,
+    productImage varchar(50) not null);
+insert into products values 
+('BQ2', 'Pink Rose', 'Pink rose with complementary colorless vase', 35, 15, 'b2.jpg')
+('BQ3', 'Assorted Rose', 'Assorted rose with white glass vase', 45, 15, 'b3.jpg')
+('BQ4', 'Red Rose', 'Wedding bouquet with white linen', 35, 20, 'b4.jpg')
+('VL1', 'Red Box', 'Red box exclusive bouquet approximately 100 fresh red roses ', 60, 10, 'v1.jpg')
+('VL2', 'Assorted red rose', 'morning fresh red bouquet approximately 70 roses', 45, 5, 'v2.jpg')
+('VL3', 'Red Bouquet', 'Red bouquet most appropraite for valentines day', 40, 10, 'v3.jpg')
+('BD1', 'Assorted bunch', 'Fresh bucnch with complimentary cake', 25, 30, 'gb2.jpg')
+('BD2', 'Mix and Match', 'Variety of chocolates with small flower bunch', 100, 20, 'gb1.jpg')
+('BD3', 'Simple Bouquet', 'Simple bouquet with two cadbury bars', 25, 20, 'gb3.jpg');
+
+CREATE TABLE users (
+    user_id int(11) primary key,
+    name varchar(30) not null,
+    address varchar(80) not null,
+    phone int(20) not null,
+    email varchar(30) not null,
+    password varchar(10) not null,
+    usertype int(1) not null);
+
+
+INSERT INTO users (user_id, name, address, phone, email, password, usertype) VALUES
+(11, 'mele', 'legenda sg15 hostel', 0176098467, 'melenyirenda@yahoo.com', 'mele', 1),
+(12, 'safina', 'legenda sg22 hostel', 0187654332, 'safinaabdul@yahoo.com', 'safina', 1),
+(13, 'patience', 'legenda sm07 hostel', 0128976554, 'patienceakunne@yahoo.com', 'patience', 1);
